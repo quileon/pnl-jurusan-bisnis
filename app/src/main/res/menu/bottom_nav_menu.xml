@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home"
+        />
+    <item
+        android:id="@+id/prodi"
+        android:icon="@drawable/ic_school"
+        android:title="@string/title_program_studi"
+        />
+    <item
+        android:id="@+id/berita"
+        android:icon="@drawable/ic_newspaper"
+        android:title="@string/title_berita"
+        />
+    <item
+        android:id="@+id/pengumuman"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/title_pengumuman"
+        />
+</menu>
