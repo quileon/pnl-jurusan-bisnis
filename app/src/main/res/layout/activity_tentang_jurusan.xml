@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TentangJurusanActivity">
+
+    <LinearLayout
+        android:id="@+id/berita_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="18dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="18dp"
+        android:divider="@drawable/big_empty_divider"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/back_button"
+                android:src="@drawable/ic_arrow_back"
+                android:layout_marginEnd="12dp"
+                app:tint="@color/yellow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tentang_jurusan_title"
+                android:textColor="@color/yellow"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginStart="16dp"
+                android:background="@color/yellow" />
+        </LinearLayout>
+
+        <!-- Content Section -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sekilas Tentang Jurusan Bisnis"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jurusan Bisnis berdiri pada tahun 2024 berdasarkan Surat Keputusan Menteri Pendidikan, Kebudayaan, Riset dan Teknologi Republik Indonesia Nomor 5 Tahun 2024 tentang Organisasi dan Tata Kerja Politeknik Negeri Lhokseumawe yang dikeluarkan pada tanggal 21 Februari 2024 dan di perkuat dengan Surat Edaran Wakil Direktur Bidang Umum dan Keuangan Nomor 4461/PL.20/OT.00.00/2024 yang dikeluarkan pada tanggal 1 Agustus 2024."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jurusan Bisnis awalnya bernama Jurusan Tata Niaga yang didirikan pada tahun 1997 berdasarkan Surat Keputusan Menteri Pendidikan dan Kebudayaan Nomor 100/O/1997 tanggal 9 Mei 1997 tentang Pendirian Politeknik Negeri Lhokseumawe."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jurusan Bisnis terdiri dari 6 program studi, yaitu:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Program Magister Keuangan Islam Terapan,\n2. Program Sarjana Terapan Akuntansi Lembaga Keuangan Syariah,\n3. Program Sarjana Terapan Manajemen Keuangan Sektor Publik,\n4. Program Sarjana Terapan Akuntansi Sektor Publik,\n5. Program Diploma Tiga Akuntansi, dan\n6. Administrasi Bisnis."
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="16dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dalam menjalankan unsur kelembagaan, Jurusan Bisnis dipimpin oleh Ketua Jurusan dan di bantu Sekretaris Jurusan dalam menjalankan kebijakan dan pengambilan Keputusan terhadap pengembangan sumber daya manusia dan proses PBM dibantu oleh masing-masing Kepala Program studi. Semua perangkat tata pamong mulai dari manajerial sampai Tingkat pelaksanaan terorganisir secara baik dengan pelaksanaan prinsip good governance."
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

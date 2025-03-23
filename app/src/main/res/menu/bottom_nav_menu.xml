@@ -3,21 +3,21 @@
     <item
         android:id="@+id/home"
         android:icon="@drawable/ic_home"
-        android:title="@string/title_home"
+        android:title="@string/home_title"
         />
     <item
         android:id="@+id/prodi"
         android:icon="@drawable/ic_school"
-        android:title="@string/title_program_studi"
+        android:title="@string/program_studi_title"
         />
     <item
         android:id="@+id/berita"
         android:icon="@drawable/ic_newspaper"
-        android:title="@string/title_berita"
+        android:title="@string/berita_title"
         />
     <item
         android:id="@+id/pengumuman"
         android:icon="@drawable/ic_notification"
-        android:title="@string/title_pengumuman"
+        android:title="@string/pengumuman_title"
         />
 </menu>

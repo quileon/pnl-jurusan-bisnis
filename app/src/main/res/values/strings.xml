@@ -1,10 +1,27 @@
 <resources>
     <string name="app_name">PNL Jurusan Bisnis</string>
-    <string name="title_home">Home</string>
-    <string name="title_program_studi">Program Studi</string>
-    <string name="title_berita">Berita</string>
-    <string name="title_pengumuman">Pengumuman</string>
+
+    <!-- Home -->
+    <string name="home_title">Home</string>
     <string name="hero">Hero image</string>
+    <string name="about_us_title">Tentang Kami</string>
+    <string name="about_us_description">Jurusan Bisnis berdiri pada tahun 2024 berdasarkan Surat Keputusan Menteri Pendidikan, Kebudayaan, Riset dan Teknologi Republik Indonesia Nomor 5 Tahun 2024.</string>
+    <string name="about_us_more_btn">SELENGKAPNYA</string>
+    <string name="home_recent_news_title">Berita Terkini</string>
+
+    <!-- Jurusan -->
+    <string name="tentang_jurusan_title">Tentang Jurusan</string>
+
+    <!-- Program Studi -->
+    <string name="program_studi_title">Program Studi</string>
+
+    <!-- Berita -->
+    <string name="berita_title">Berita</string>
+
+    <!-- Pengumuman -->
+    <string name="pengumuman_title">Pengumuman</string>
+
+    <string name="back_button">Back</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
