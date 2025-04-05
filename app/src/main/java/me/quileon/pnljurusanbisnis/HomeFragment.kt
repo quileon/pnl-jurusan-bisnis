@@ -34,7 +34,7 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val btnSelengkapnya = view.findViewById<Button>(R.id.btn_more_details)
+        val btnSelengkapnya = view.findViewById<androidx.cardview.widget.CardView>(R.id.btn_home_tentang_subtext)
         btnSelengkapnya.setOnClickListener {
             val intent = Intent(requireContext(), TentangJurusanActivity::class.java)
             startActivity(intent)

@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="RoundedBottomCornerStyle">
+
+    <style name="roundedBottomImageView24">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSizeBottomLeft">24dp</item>
         <item name="cornerSizeBottomRight">24dp</item>
+    </style>
+
+    <style name="roundedBottomImageView16">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">16dp</item>
+        <item name="cornerSizeBottomRight">16dp</item>
+    </style>
+
+    <style name="roundedBottomImageView12">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">12dp</item>
+        <item name="cornerSizeBottomRight">12dp</item>
+    </style>
+
+    <style name="roundedImageView24">
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="roundedImageView12">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="roundedImageView10">
+        <item name="cornerSize">10dp</item>
     </style>
 </resources>

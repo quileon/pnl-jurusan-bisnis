@@ -1,25 +1,46 @@
 <resources>
     <string name="app_name">PNL Jurusan Bisnis</string>
 
+    <!--  Header  -->
+    <string name="header_text">JURUSAN BISNIS</string>
+    <string name="header_subtext">POLITEKNIK NEGERI LHOKSEUMAWE</string>
+
     <!-- Home -->
     <string name="home_title">Home</string>
-    <string name="hero">Hero image</string>
-    <string name="about_us_title">Tentang Kami</string>
-    <string name="about_us_description">Jurusan Bisnis berdiri pada tahun 2024 berdasarkan Surat Keputusan Menteri Pendidikan, Kebudayaan, Riset dan Teknologi Republik Indonesia Nomor 5 Tahun 2024.</string>
-    <string name="about_us_more_btn">SELENGKAPNYA</string>
-    <string name="home_recent_news_title">Berita Terkini</string>
+    <string name="hero_description">Hero image</string>
+    <string name="home_tentang_text">Tentang Jurusan Bisnis</string>
+    <string name="home_tentang_subtext">Jurusan Bisnis berdiri pada tahun 2024 berdasarkan Surat Keputusan Menteri Pendidikan, Kebudayaan, Riset dan Teknologi Republik Indonesia Nomor 5 Tahun 2024.</string>
+    <string name="home_tentang_button_text">SELENGKAPNYA</string>
 
-    <!-- Jurusan -->
-    <string name="tentang_jurusan_title">Tentang Jurusan</string>
+    <!-- Tentang Jurusan -->
+    <string name="tentang_title">Tentang Jurusan Bisnis</string>
+    <string name="tentang_sekilas_text">Jurusan Bisnis Politeknik Negeri Lhokseumawe berdiri tahun 2024, setelah sebelumnya dikenal sebagai Jurusan Tata Niaga sejak 1997. Jurusan ini memiliki 6 program studi dan menerapkan prinsip good governance dalam tata kelola kelembagaan.</string>
+    <string name="tentang_visi_text">Jurusan Teknik Sipil pada tahun 2024 menjadi pusat pendidikan vokasi di bidang Teknik  Sipil yang mampu bersaing pada tingkat nasional dan internasional.</string>
+    <string name="tentang_misi_text">1. Menyelenggarakan kegiatan pendidikan vokasi di bidang Teknik Sipil yang berkarakter.\n2. Melaksanakan dan mengembangkan penelitian terapan pada bidang Teknik Sipil, dan\n3. Melaksanakan pengabdian kepada masyarakat dalam menyelesaikan permasalahan di bidang Teknik Sipil untuk peningkatan mutu kehidupan masyarakat.</string>
 
     <!-- Program Studi -->
     <string name="program_studi_title">Program Studi</string>
+    <string name="program_studi_subtitle">Program Studi yang Tersedia di Jurusan Bisnis</string>
+    <string name="program_studi_keuangan_islam_terapan_text">Keuangan Islam Terapan</string>
+    <string name="program_studi_akuntansi_lembaga_keuangan_syariah_text">Akuntansi Lembaga Keuangan Syariah</string>
+    <string name="program_studi_manajemen_keuangan_sektor_publik_text">Manajemen Keuangan Sektor Publik</string>
+    <string name="program_studi_akuntansi_text">Akuntansi</string>
+    <string name="program_studi_administrasi_bisnis_text">Administrasi Bisnis</string>
+    <string name="program_studi_akuntansi_sektor_publik_text">Akuntansi Sektor Publik</string>
 
     <!-- Berita -->
     <string name="berita_title">Berita</string>
+    <string name="berita_subtitle">Berita Terbaru di Jurusan Bisnis</string>
+    <string name="berita_1_title">Ini Kata Direktur PNL Saat Hadiri Pelepasan Mahasiswa Magang Program MSIB</string>
+    <string name="berita_1_date">6 September 2024</string>
+    <string name="berita_2_title">Mahasiswa Calon lulusan PNL antusias mengikuti Kuliah Umum Pengembangan Soft Skills</string>
+    <string name="berita_2_date">5 September 2024</string>
 
     <!-- Pengumuman -->
     <string name="pengumuman_title">Pengumuman</string>
+    <string name="pengumuman_subtitle">Pengumuman Terbaru di Jurusan Bisnis</string>
+    <string name="pengumuman_1_title">Kalender Akademik Tahun 2024/2025</string>
+    <string name="pengumuman_1_date">30 Agustus 2024</string>
 
     <string name="back_button">Back</string>
     <!-- TODO: Remove or change this placeholder text -->
