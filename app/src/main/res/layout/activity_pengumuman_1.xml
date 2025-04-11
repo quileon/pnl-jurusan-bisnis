@@ -100,19 +100,19 @@
                 android:id="@+id/tv_berita_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="21dp"
                 android:lineSpacingExtra="2dp"
                 android:text="@string/pengumuman_1_isi"
                 android:textColor="@color/black"
-                android:layout_marginBottom="21dp"
                 android:textSize="14sp" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/img_pengumuman_1_isi"
+                android:layout_marginBottom="21dp"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/pengumuman_1_isi"
-                />
+                android:src="@drawable/img_pengumuman_1_isi" />
 
         </LinearLayout>
 

@@ -110,6 +110,7 @@
                 android:id="@+id/tv_berita_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="21dp"
                 android:lineSpacingExtra="2dp"
                 android:text="@string/berita_2_isi"
                 android:textColor="@color/black"
