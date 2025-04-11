@@ -13,6 +13,13 @@
         android:theme="@style/Theme.PNLJurusanBisnis"
         tools:targetApi="31">
         <activity
+            android:name=".Berita2Activity"
+            android:exported="false"
+            android:theme="@style/Theme.PNLJurusanBisnis" />
+        <activity
+            android:name=".Berita1Activity"
+            android:exported="false" />
+        <activity
             android:name=".TentangJurusanActivity"
             android:exported="false" />
         <activity

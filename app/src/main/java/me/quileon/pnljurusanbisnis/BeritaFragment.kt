@@ -1,5 +1,6 @@
 package me.quileon.pnljurusanbisnis
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -27,6 +28,29 @@ class BeritaFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val cardBerita1 = view.findViewById<androidx.cardview.widget.CardView>(R.id.cv_berita_1)
+        val cardBerita2 = view.findViewById<androidx.cardview.widget.CardView>(R.id.cv_berita_2)
+
+        cardBerita1.setOnClickListener {
+            val intent = Intent(requireContext(), Berita1Activity::class.java)
+            startActivity(intent)
+        }
+
+        cardBerita2.setOnClickListener {
+            val intent = Intent(requireContext(), Berita2Activity::class.java)
+            startActivity(intent)
+        }
+
+//        val btnSelengkapnya = view.findViewById<androidx.cardview.widget.CardView>(R.id.btn_home_tentang_subtext)
+//        btnSelengkapnya.setOnClickListener {
+//            val intent = Intent(requireContext(), TentangJurusanActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 
     override fun onCreateView(

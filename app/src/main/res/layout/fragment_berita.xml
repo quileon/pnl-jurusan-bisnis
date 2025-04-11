@@ -123,7 +123,7 @@
 
             <!-- Second News Item -->
             <androidx.cardview.widget.CardView
-                android:id="@+id/news_item_2"
+                android:id="@+id/cv_berita_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"

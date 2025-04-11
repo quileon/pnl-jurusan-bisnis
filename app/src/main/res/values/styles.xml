@@ -23,6 +23,10 @@
         <item name="cornerSize">24dp</item>
     </style>
 
+    <style name="roundedImageView16">
+        <item name="cornerSize">16dp</item>
+    </style>
+
     <style name="roundedImageView12">
         <item name="cornerSize">12dp</item>
     </style>
