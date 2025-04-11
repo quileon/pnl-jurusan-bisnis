@@ -78,7 +78,7 @@
             tools:layout_editor_absoluteX="0dp">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cv_berita_1"
+                android:id="@+id/cv_pengumuman_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"

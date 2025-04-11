@@ -2,13 +2,13 @@
 <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/berita_1_main"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/base"
     android:fillViewport="true"
     android:fitsSystemWindows="true"
-    tools:context=".Berita1Activity">
+    tools:context=".Pengumuman1Activity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:gravity="center"
-            android:text="@string/berita_detail_title"
+            android:text="@string/pengumuman_detail_title"
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -56,22 +56,12 @@
             android:paddingTop="18dp"
             app:layout_constraintTop_toBottomOf="@id/tv_page_title">
 
-            <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_marginBottom="12dp"
-                android:adjustViewBounds="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/img_berita_1"
-                app:shapeAppearanceOverlay="@style/roundedImageView16" />
-
-            <!-- Main News Title -->
             <TextView
                 android:id="@+id/tv_berita_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="@string/berita_1_title"
+                android:text="@string/pengumuman_1_title"
                 android:textColor="@color/blue"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -82,7 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
-                android:text="@string/berita_1_date"
+                android:text="@string/pengumuman_1_date"
                 android:textSize="14sp" />
 
             <!-- News Image -->
@@ -100,7 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
-                android:text="@string/berita_detail_isi_text"
+                android:text="@string/pengumuman_detail_isi_text"
                 android:textColor="@color/blue"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -111,11 +101,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="2dp"
-                android:text="@string/berita_1_isi"
+                android:text="@string/pengumuman_1_isi"
                 android:textColor="@color/black"
+                android:layout_marginBottom="21dp"
                 android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_pengumuman_1_isi"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/pengumuman_1_isi"
+                />
 
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.core.widget.NestedScrollView>
