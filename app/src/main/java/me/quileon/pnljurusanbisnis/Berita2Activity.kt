@@ -14,7 +14,7 @@ class Berita2Activity : AppCompatActivity() {
         setContentView(R.layout.activity_berita_2)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.berita_2_main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, v.paddingBottom)
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
